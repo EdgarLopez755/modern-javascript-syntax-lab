@@ -20,3 +20,8 @@ console.log(nums2)
 const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 
 // Your code here
+
+const [firstTopping, secondToppings] = pizzaToppings
+
+console.log(firstTopping)
+console.log(secondToppings)
