@@ -31,17 +31,17 @@ const nums2 = nums.map((currentNumber) => {
 
 // Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
 
-const car = {
-    make: 'Audi',
-    model: 'q5',
-  };
+// const car = {
+//     make: 'Audi',
+//     model: 'q5',
+//   };
   
   // Your code here
 
-  const { make, model } = car
+//   const { make, model } = car
 
-  console.log(make)
-  console.log(model)
+//   console.log(make)
+//   console.log(model)
 
 
 // Exercise 4 
@@ -55,3 +55,46 @@ const pizzaToppings = ['Pineapple', 'Olives', 'Anchovies'];
 const controversialPizzaToppings = [...pizzaToppings]
 
 console.log(controversialPizzaToppings)
+
+// Exercise 5
+
+// Duplicate the following object and spread its values into a new variable `myCar`.
+
+const car = {
+    make: 'Audi',
+    model: 'q5',
+  };
+  
+  // Change the `model` property of `myCar` to 'q7'. Log both objects.
+  
+  // Your code here
+  
+const myCar = { ...car }
+
+myCar.model = 'g7'
+
+
+  console.log(myCar)
+  console.log(car)
+
+// Exercise 6 
+
+
+// Create an object named userProfile. 
+// Define a variable named propertyName and assign a string to it (like a username, age, or email). 
+// Use propertyName as a dynamic key in userProfile, assigning a relevant value.
+
+// Your code here
+
+const userProfile = {};
+
+
+const propertyName = 'username';
+userProfile[propertyName] = 'Wicked'
+
+console.log(userProfile)
+
+
+//Exercise 7 
+
+
