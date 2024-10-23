@@ -187,5 +187,21 @@ console.log('User theme setting:', USER_THEME);
 // Exercise 11 
 
 
+// const adventurer = {
+//   name: 'Alice',
+// };
 
+// let dog = adventurer.dog?.name;
+
+// console.log(dog); // undefined
+
+// Now check for `cat.age` on `adventurer`. See how it errors out? Use optional chaining in a console.log that it returns undefined instead.
+
+const adventurer = {
+  name: 'Alice',
+};
+
+let cat; adventurer.cat?.age
+
+console.log(cat);
 
